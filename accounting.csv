@@ -1,3 +1,4 @@
 Merchant,Type,Number,Status,Date,Amount,Link
 NextGen Systems,Invoice,INV-1245,Paid,2025-09-07,6398,./assets/invoices/Invoice_Paid_1-1757151638368.pdf
 Olivia Wilson,Invoice,000001,Paid,2030-06-02,755,./assets/invoices/invoice-2-1757151683220.jpg
+NextGen Systems,Invoice,INV-2327,Unpaid,2025-11-13,5914,./assets/invoices/Invoice_Unpaid_1-1757152067308.pdf
