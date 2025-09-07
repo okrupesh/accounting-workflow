@@ -675,8 +675,9 @@ with placeholder.container():
                 help="Transaction amount"
             ),
             "Link": st.column_config.LinkColumn(
-                "Invoice Link",
-                help="Link to invoice document"
+                "Document",
+                help="Click to view invoice/document",
+                display_text="📄 View Document"
             )
         }
     )
@@ -732,17 +733,7 @@ with placeholder.container():
             for insight in insights:
                 st.markdown(f"<div class='insight-item'>{insight}</div>", unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
-    
-    # Enhanced Footer
-    last_updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    st.markdown(f"""
-    <div class="footer">
-        <p>Last updated: {last_updated} | Auto-refreshing every 2 seconds</p>
-        <p style="margin-top: 0.5rem; font-size: 0.75rem; opacity: 0.7;">
-            Built with ❤️ using Streamlit & Modern UI Design
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
+
 
 # Auto-refresh mechanism
 time.sleep(2)
